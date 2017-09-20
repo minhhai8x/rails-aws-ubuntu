@@ -1,0 +1,36 @@
+I, [2017-09-20T03:12:19.024097 #4192]  INFO -- : executing ["/home/deploy/.rvm/gems/ruby-2.4.1/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/www/rails5.1/shared/sockets/unicorn.sock>}] (in /home/deploy/www/rails5.1)
+I, [2017-09-20T03:12:19.024222 #4192]  INFO -- : forked child re-executing...
+I, [2017-09-20T03:12:19.196834 #4192]  INFO -- : inherited addr=/home/deploy/www/rails5.1/shared/sockets/unicorn.sock fd=11
+I, [2017-09-20T03:12:19.199455 #4192]  INFO -- : Refreshing Gem list
+I, [2017-09-20T03:12:20.417690 #4192]  INFO -- : worker=0 spawning...
+I, [2017-09-20T03:12:20.418527 #4192]  INFO -- : worker=1 spawning...
+I, [2017-09-20T03:12:20.419088 #4192]  INFO -- : master process ready
+I, [2017-09-20T03:12:20.419816 #4196]  INFO -- : worker=0 spawned pid=4196
+I, [2017-09-20T03:12:20.419950 #4196]  INFO -- : worker=0 ready
+I, [2017-09-20T03:12:20.420555 #4198]  INFO -- : worker=1 spawned pid=4198
+I, [2017-09-20T03:12:20.420678 #4198]  INFO -- : worker=1 ready
+E, [2017-09-20T03:12:23.295614 #4192] ERROR -- : old PID:3611 running with existing pid=/home/deploy/www/rails5.1/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2017-09-20T03:36:16.657024 #4192] ERROR -- : old PID:3611 running with existing pid=/home/deploy/www/rails5.1/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2017-09-20T03:44:54.482711 #4192] ERROR -- : old PID:3611 running with existing pid=/home/deploy/www/rails5.1/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2017-09-20T03:46:12.107975 #4192] ERROR -- : old PID:3611 running with existing pid=/home/deploy/www/rails5.1/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2017-09-20T03:55:26.721773 #4192] ERROR -- : old PID:3611 running with existing pid=/home/deploy/www/rails5.1/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2017-09-20T04:04:59.091862 #4192] ERROR -- : old PID:3611 running with existing pid=/home/deploy/www/rails5.1/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2017-09-20T04:05:00.884309 #4192] ERROR -- : old PID:3611 running with existing pid=/home/deploy/www/rails5.1/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2017-09-20T04:05:02.987880 #4192] ERROR -- : old PID:3611 running with existing pid=/home/deploy/www/rails5.1/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2017-09-20T04:26:46.234892 #4192]  INFO -- : reaped #<Process::Status: pid 4196 exit 0> worker=0
+I, [2017-09-20T04:26:46.234984 #4192]  INFO -- : reaped #<Process::Status: pid 4198 exit 0> worker=1
+I, [2017-09-20T04:26:46.235048 #4192]  INFO -- : master complete
+E, [2017-09-20T04:26:46.250514 #3611] ERROR -- : reaped #<Process::Status: pid 4192 exit 0> exec()-ed
+I, [2017-09-20T04:53:29.823548 #3611]  INFO -- : reaped #<Process::Status: pid 3614 exit 0> worker=0
+I, [2017-09-20T04:53:29.823644 #3611]  INFO -- : reaped #<Process::Status: pid 3616 exit 0> worker=1
+I, [2017-09-20T04:53:29.823712 #3611]  INFO -- : master complete
+I, [2017-09-20T04:53:38.712213 #5634]  INFO -- : Refreshing Gem list
+I, [2017-09-20T04:53:39.948439 #5634]  INFO -- : unlinking existing socket=/home/deploy/www/rails5.1/shared/sockets/unicorn.sock
+I, [2017-09-20T04:53:39.950193 #5634]  INFO -- : listening on addr=/home/deploy/www/rails5.1/shared/sockets/unicorn.sock fd=11
+I, [2017-09-20T04:53:39.950296 #5634]  INFO -- : worker=0 spawning...
+I, [2017-09-20T04:53:39.951491 #5634]  INFO -- : worker=1 spawning...
+I, [2017-09-20T04:53:39.952062 #5637]  INFO -- : worker=0 spawned pid=5637
+I, [2017-09-20T04:53:39.952210 #5637]  INFO -- : worker=0 ready
+I, [2017-09-20T04:53:39.953017 #5634]  INFO -- : master process ready
+I, [2017-09-20T04:53:39.957190 #5640]  INFO -- : worker=1 spawned pid=5640
+I, [2017-09-20T04:53:39.957311 #5640]  INFO -- : worker=1 ready
